@@ -16,6 +16,11 @@ body {
     /* margin: 0; */
 }
 
+/* .navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
 a {
     text-decoration: none;
     /* color: rosybrown; */
@@ -37,11 +42,12 @@ li {
 }
 
 .iconos {
-    padding: 3em;
+    padding: 2em;
 }
 
 i {
-    width: 2em;
+    width: 1.5em;
+    font-size: 1.5em;
 }
 
 .hero {
@@ -83,7 +89,7 @@ h1 {
 }
 
 .curriculum {
-    width: 60%;
+    width: 70%;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 2em;
@@ -113,14 +119,18 @@ h1 {
     display: flex;
 } */
 
-.datos-personales {
+.cv-texto {
     /* color: aliceblue; */
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     /* width: 60%; */
     margin: auto;
-    border-radius: 50%;
+    border-radius: 20%;
     padding: 5%;
     margin-bottom: 3em;
+}
+
+.cv-texto ol {
+    text-align: start;
 }
 
 .datos-educacion {
@@ -133,11 +143,18 @@ h1 {
     /* margin-bottom: 3em; */
 }
 
-.datos-educacion ol {
-    text-align: start;
+.datos-experiencia {
+    /* color: aliceblue; */
+    /* background-color: aquamarine; */
+    /* width: 60%; */
+    margin: auto;
+    border-radius: 20%;
+    padding: 5%;
+    /* margin-bottom: 3em; */
 }
 
 .contacto {
+    overflow: auto;
     /* margin-top: 2em; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -146,6 +163,11 @@ h1 {
     text-align: center;
     /* min-height: 100vh; */
     /* width: auto; */
+    width: 60%;
+    margin: auto;
+    background-color: aquamarine;
+    border-radius: 15%;
+    padding: 2em;
 }
 
 form {
