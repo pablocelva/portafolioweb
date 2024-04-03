@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background-image: url(/assets/img/WEBDEV\ CV\ FONDO.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Forum;
+    font-weight: 550;
+    /* color: aliceblue; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 800;
+    padding: 2em;
+    /* margin: 0; */
+}
+
+a {
+    text-decoration: none;
+    /* color: rosybrown; */
+    color: black;
+    font-size: 25px;
+    /* background-color: cadetblue; */
+    /* padding: 15px; */
+    /* border-radius: 50%; */
+    /* opacity: 50%; */
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+    line-height: 2em;
+}
+
+.iconos {
+    padding: 3em;
+}
+
+i {
+    width: 2em;
+}
+
+.hero {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    /* min-height: 100vh; */
+    /* width: auto; */
+}
+
+
+h1 {
+    /* font-family: Forum; */
+    font-size: 100px;
+    /* width: 80%; */
+}
+
+/* h2 {
+    font-weight: 800px;
+} */
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 80%;
+    /* padding-bottom: 2em; */
+    gap: 2em;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.curriculum {
+    width: 60%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    /* min-height: 100vh; */
+    /* width: auto; */
+}
+
+.cv-img {
+    width: auto;
+    /* margin: auto; */
+}
+
+.cv-img img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    /* margin: auto; */
+}
+
+/* .cv-texto {
+    width: 60%;
+    display: flex;
+} */
+
+.datos-personales {
+    /* color: aliceblue; */
+    /* background-color: aquamarine; */
+    /* width: 60%; */
+    margin: auto;
+    border-radius: 50%;
+    padding: 5%;
+    margin-bottom: 3em;
+}
+
+.datos-educacion {
+    /* color: aliceblue; */
+    /* background-color: aquamarine; */
+    /* width: 60%; */
+    margin: auto;
+    border-radius: 20%;
+    padding: 5%;
+    /* margin-bottom: 3em; */
+}
+
+.datos-educacion ol {
+    text-align: start;
+}
+
+.contacto {
+    /* margin-top: 2em; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* min-height: 100vh; */
+    /* width: auto; */
+}
+
+form {
+    width: 60%;
+    margin: auto;
+}
+
+footer {
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 2em;
+    position: static;
+    margin-top: 2em;
+}
